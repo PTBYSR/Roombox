@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+font-family: 'Yomogi', cursive;
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+font-family: 'Indie Flower', cursive;
+
+
+https://media.giphy.com/media/9PnJrN5KHO7YHj0yW1/giphy.gif
+
+https://media.giphy.com/media/8cpfWLVqz1pB8NxliP/giphy.gif
+
+https://media.giphy.com/media/RlTIpKvxcE8tOJbZ04/giphy.gif
+
+https://media.giphy.com/media/SUtvUAbKeBXiVdqCMB/giphy.gif
+
+https://media.giphy.com/media/p3vzYCIdKAnIRMqO5d/giphy.gif
+
+https://media.giphy.com/media/IbOMk6rPgInyde8fLL/giphy.gif
+https://media.giphy.com/media/TgxKA4dyYtQBdxmIcb/giphy.gif
+
+https://media.giphy.com/media/d3mmm2VHIiBkSqBO/giphy.gif
+https://media.giphy.com/media/3ohhwMsgVMVCu2TKHS/giphy.gif
+
+
+meme =[
+    9PnJrN5KHO7YHj0yW1,
+    8cpfWLVqz1pB8NxliP,
+    RlTIpKvxcE8tOJbZ04,
+    SUtvUAbKeBXiVdqCMB,
+    p3vzYCIdKAnIRMqO5d,
+    IbOMk6rPgInyde8fLL,
+    TgxKA4dyYtQBdxmIcb,
+    d3mmm2VHIiBkSqBO,
+    3ohhwMsgVMVCu2TKHS 
+]
+dogs
+
+
+https://media.giphy.com/media/2EmNcY9uJ7I373VM2s/giphy.gif
+https://media.giphy.com/media/vS8deMiryn69PFGwJQ/giphy.gif
+https://media.giphy.com/media/ec9bGkgjnLFDpby9Cs/giphy.gif
+https://media.giphy.com/media/V3r3aWgdMJdv1njDRk/giphy.gif
+https://media.giphy.com/media/Z4w6YDHh9uRq6QtamB/giphy.gif
+https://media.giphy.com/media/6R0sovjJNBWemFbyir/giphy.gif
+https://media.giphy.com/media/YTEHHsDnIzuPA7hd7Z/giphy.gif
+https://media.giphy.com/media/LVrHEIxyJRaq89XlwN/giphy.gif
+https://media.giphy.com/media/mnFNB5IIabdgVve3zb/giphy.gif
+https://media.giphy.com/media/cJtwNa9yT63c89rywK/giphy.gif
+https://media.giphy.com/media/Sd81Z3bzmiyiBpGf3y/giphy.gif
+
+
+const shiba = [
+    2EmNcY9uJ7I373VM2s,
+    vS8deMiryn69PFGwJQ,
+    ec9bGkgjnLFDpby9Cs,
+    V3r3aWgdMJdv1njDRk,
+    Z4w6YDHh9uRq6QtamB,
+    6R0sovjJNBWemFbyir,
+    YTEHHsDnIzuPA7hd7Z,
+    LVrHEIxyJRaq89XlwN,
+    mnFNB5IIabdgVve3zb,
+    cJtwNa9yT63c89rywK,
+    Sd81Z3bzmiyiBpGf3y
+]

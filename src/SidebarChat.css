@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+.chat__header-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+}
+
+.chat__header-input > form{
+    /* flex: 1; */
+    padding: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.chat__header-input > form > input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline-width: 0;
+}
+.chat__header-input > form > input::placeholder {
+    font-family: 'Yomogi', cursive;
+    color: grey;
+    font-weight: 700;
+}
+
+.chat__header-input > form > button {
+    display: none;
+}
+
+.sidebarChat{
+    position: relative;
+    display: flex;
+    padding: 20px;
+    font-family: 'Yomogi', cursive;
+    cursor: pointer;
+    background-color: #630024;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.sidebarChat:hover{
+    background-color: #B30041;
+}
+
+.group__profile{
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+    animation: Hover 1s infinite alternate ease-in;
+    background-color: white;
+    border: 1px #630024 solid;
+}
+
+.group__profile:hover{
+    animation: Rotate 3s infinite alternate ease-in;
+}
+
+
+@keyframes Hover {
+    100%{transform: translateY(-3px);}
+}
+
+@keyframes Rotate {
+    100%{transform: translateY(-10px);}
+}
+
+.sidebarChat__info > h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.sidebarChat__info > p{
+    color: rgba(255, 255, 255, 0.494);
+    
+}
+
+.sidebarChat__info{
+    margin-left: 15px;
+}
+
+
+.deleteButton{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #021631bf;
+}
+.deleteButton:hover{
+    transform: scale(1.3)
+}

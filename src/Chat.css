@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+.chat{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+
+/* .new{
+    font-family: sans-serif !important;
+
+} */
+
+.chat__header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.chat__headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chat__headerInfo > h3{
+    font-family: 'Yomogi', cursive;
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+}
+
+.chat__headerInfo > p{
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+}
+
+.chat__body{
+    flex: 1;
+    /* background-image: url("https://www.kolpaper.com/wp-content/uploads/2020/11/Among-Us-Twice-Wallpaper.jpg"); */
+    background-repeat: repeat;
+    background-position: center; 
+    background-color: #690cec;
+
+    padding: 30px;
+    overflow:scroll;
+    color: rgb(255, 255, 255);
+}
+
+.chat__message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #b30042a4;
+    margin-bottom: 30px;
+}
+
+.chat__receiver{
+    margin-left: auto;
+    background-color: #021631bf;
+    /* background-color: #dcf8c6; */
+}
+
+.chat__timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.chat__name{
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+.chat__footer{
+    /* position: absolute;
+    bottom: 20px;
+    left: 20px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+}
+
+.chat__footer > form{
+    /* flex: 1; */
+    width: 100%;
+    padding: 10px;
+    border: none; 
+}
+
+.chat__footer > form > input {
+    width: 100%;
+    padding: 20px 0px;
+    border: none;
+    outline-width: 0;
+    background-color: #b30042a4;
+    border-radius: 30px;
+}
+
+.chat__footer > form > input:focus {
+    color: white;
+    font-family: 'Yomogi', cursive;
+}
+
+.chat__footer > form > input::placeholder {
+    font-family: 'Yomogi', cursive;
+    color: white;
+}
+
+.chat__footer > form > button {
+    display: none;
+}
+
+.chat__footer > .MuiSvgIcon-root{
+    padding: 10px;
+    color: gray;
+}
